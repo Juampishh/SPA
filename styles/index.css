@@ -16,6 +16,8 @@ body {
 
 /* Estilos para el navbar */
 #main-nav {
+  display: flex;
+  justify-content: center;
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -30,6 +32,9 @@ body {
 
 #main-nav a:hover {
   text-decoration: underline;
+  color: #cf924c;
+  transition: color 0.6s ease;
+  transform: scale(1.1);
 }
 
 /*Estilos para el home*/
@@ -182,6 +187,11 @@ p {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.title-todo {
+  text-align: center;
+  color: #333;
+  padding: 10px;
 }
 
 .todo-form {
